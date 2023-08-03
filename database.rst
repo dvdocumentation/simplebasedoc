@@ -7,9 +7,9 @@ Connecting to the database:
 
 .. code-block:: Python
   
-     db = SimpleBase("database_name",path="path to database",timeout=<timeout>)
+     db = SimpleBase("database_name",path="path_to_database",timeout=<timeout>)
 
-The database name is the name of the directory where the data is stored. Path (optional) – path to the base directory. Timeout (optional) – the maximum allowable table lock wait time in seconds during multi-user work. The default is 60 seconds.
+The database_name is the name of the directory where the data is stored. Path (optional) – path to the database directory. Timeout (optional) – the maximum allowable table lock wait time in seconds during multi-user work. The default is 60 seconds.
 
 All data is in collections. Each collection is a separate file on disk. In this case, the collection data is always in RAM in a dictionary, but at each access it is checked if there are any changes in the data by another user/thread. 
 
@@ -25,7 +25,7 @@ Since the collection must be read at least once, and this can be a time-consumin
 
 .. code-block:: Python
      
-     db[<collection name>].get(“”)
+     db[<collection name>].get("")
 
 If the collection is not yet in memory, then it will be read at any time it is accessed.
 
