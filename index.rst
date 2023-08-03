@@ -1,3 +1,6 @@
+About
+----------------
+
 SimpleBase is a JSON based serverless database with improved performance on key operations
 
 The strength of document-oriented NoSQL database is their natural simplicity, but they are usually not very fast (unless they are big server databases like MongoDB). SimpleBase fixes performance issues in critical areas
