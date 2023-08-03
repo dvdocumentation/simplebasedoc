@@ -1,4 +1,4 @@
-Basic usage
+Getting Started
 ====================
 
 Installation
@@ -11,7 +11,7 @@ First, let's create a database object
 
 .. code-block:: Python
   
-  from simplebase import SimpleBase,DBSession
+  from pysimplebase import SimpleBase,DBSession
   
   db = SimpleBase("samples_db")
 
