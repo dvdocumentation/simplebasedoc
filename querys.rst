@@ -40,20 +40,20 @@ Syntax (execution result - list of documents):
   
 For this, comparison operators are used:
                  
- * **$eq** is equivalent to **=**, matches values that are equal to a specified value.
- * **$gt** is equivalent to **>**, matches values that are greater than a specified value.
- * **$gte** is the equivalent of **>=**, matches values that are greater than or equal to a specified value.
- * **$in** - matches any of the values specified in an list.
- * **$lt** - equivalent to **<**, matches values that are less than a specified value.
- * **$lte** - equivalent to **<=**, matches values that are less than or equal to a specified value.
- * **$ne** is equivalent to **!=**, matches all values that are not equal to a specified value.
- * **$regex** - execution of a regular expression expression, to check the condition on a line of text
+* **$eq** is equivalent to **=**, matches values that are equal to a specified value.
+* **$gt** is equivalent to **>**, matches values that are greater than a specified value.
+* **$gte** is the equivalent of **>=**, matches values that are greater than or equal to a specified value.
+* **$in** - matches any of the values specified in an list.
+* **$lt** - equivalent to **<**, matches values that are less than a specified value.
+* **$lte** - equivalent to **<=**, matches values that are less than or equal to a specified value.
+* **$ne** is equivalent to **!=**, matches all values that are not equal to a specified value.
+* **$regex** - execution of a regular expression expression, to check the condition on a line of text
 
-And logical operators:
+...and logical operators:
                  
- * **$and** - joins query clauses with a logical AND returns all documents that match the conditions of both clauses.
- * **$not** - inverts the effect of a query expression and returns documents that do not match the query expression.
- * **$or** - joins query clauses with a logical OR returns all documents that match the conditions of either clause.
+* **$and** - joins query clauses with a logical **AND** returns all documents that match the conditions of both clauses.
+* **$not** - inverts the effect of a query expression and returns documents that do not match the query expression.
+* **$or** - joins query clauses with a logical **OR** returns all documents that match the conditions of either clause.
 
 An example of two comparison operations combined with the $and operator:
 
