@@ -21,6 +21,9 @@ It was written for situations where you need to organize a local database withou
 • Organize real-time search by occurrence of a string across a large collection without friezes
 
 
+An example
+-----------------
+
 .. code-block:: Python
 
   from pysimplebase import SimpleBase,DBSession
