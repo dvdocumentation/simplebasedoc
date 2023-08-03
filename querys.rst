@@ -7,13 +7,13 @@ Get all data from the collection (returns list of a document):
 
   collection.all()
 
-Get one document by ID (returns one record):
+Get one document by ID (returns one record).This is a fast command. the call is always made to the dictionary in memory.
 
 .. code-block:: Python
  
   collection.get(<ID>)
                  
- This is a fast command. the call is always made to the dictionary in memory.
+
                  
 Simple search
 --------------------
