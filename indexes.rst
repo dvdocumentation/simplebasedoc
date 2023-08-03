@@ -32,7 +32,7 @@ For example,
 
 .. code-block:: Python
                             
-    db['query_test''].reindex_hash("my_hash_index")
+    db['query_test'].reindex_hash('my_hash_index')
 
 Searching by index is actually getting the value by the key in the dictionary and is performed by the get_by_index(<index>,<value>) function
                                                                                                                    
@@ -68,7 +68,7 @@ For example,
 
 .. code-block:: Python
                         
-    db['query_test''].reindex_text("my_text_index")
+    db['query_test'].reindex_text('my_text_index')
 
 To search by index, use the function
 
